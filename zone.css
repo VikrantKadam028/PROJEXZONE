@@ -1,0 +1,2519 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Fasthand&family=Kaushan+Script&family=Montserrat+Alternates&family=Poppins&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    cursor: url('glow.png'), auto;
+    background-color: black;
+    zoom: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("layer-base.png");
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7px;
+}
+
+.nav h1 {
+    padding: 25px;
+    color: white;
+    font-size: 22px;
+    font-family: Montserrat Alternates;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.nav form {
+    padding: 25px;
+    font-size: 18px;
+    margin-right: 60px;
+}
+
+.nav form ul {
+    display: flex;
+
+}
+
+.nav form ul li {
+    margin-right: 50px;
+    list-style: none;
+}
+
+.nav form ul li a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-family: poppins;
+    padding: 8px;
+    cursor: pointer;
+
+}
+
+.nav form ul li a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.nav img {
+    width:auto;
+    height:50px;
+    padding:0px;
+    margin:10px;
+    background-color: white;
+    border-radius: 50%;
+    display:none;
+}
+#head1 {
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.heading {
+    width: 100%;
+    height: 530px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading h1 {
+    font-size: 75px;
+    color: white;
+    font-family: Bruno ace SC;
+    text-shadow: 0 0 15px #9d822b;
+}
+
+.subheading {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subheading h3 {
+    font-size: 13px;
+    color: white;
+    font-family: Bruno ace SC;
+    opacity: 0.4;
+    cursor: pointer;
+    transition: 3s;
+    animation: anim 3s infinite;
+    text-align: center;
+    
+    
+}
+
+@keyframes anim {
+    0% {
+        opacity: 0.4;
+    }
+
+    100% {
+        opacity: 1;
+        text-shadow: 0 0 15px #9d822b;
+    }
+}
+
+/* .layer_middle {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.layer_middle img {
+    width: auto;
+    height: 805px;
+    position: absolute;
+    top:100px;
+} */
+.btn {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Button {
+    padding: 10px;
+    font-family: poppins;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 420px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 0 5px black;
+}
+
+#Button:hover {
+    box-shadow: 0 0 15px #9d822b,
+        0 0 30px #9d822b;
+}
+
+.block1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("dungeon.jpg");
+    background-image: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 5px solid grey;
+}
+
+.block1 img {
+    width: auto;
+    height: 750px;
+
+}
+
+.block1 h1 {
+    color: white;
+    font-family: Bruno ace SC;
+    font-size: 65px;
+    margin-top: 0px;
+    margin-right: 0px;
+    text-shadow: 0 0 10px black,
+        0 0 10px grey;
+
+
+}
+
+
+#Btn1 {
+    width: 250px;
+    height: 30px;
+    font-family: poppins;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    position: absolute;
+    top: 1250px;
+    left: 750px;
+    cursor: pointer;
+    transition: 2s;
+    text-align: center;
+    text-decoration: none;
+}
+
+#Btn2 {
+    width: 200px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 13px;
+    font-family: poppins;
+    color: white;
+    font-size: 17px;
+    margin: 10px;
+    transition: 1s;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+#Btn2:hover {
+    background-color: white;
+    color:black;
+}
+
+#Btn1:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 0 0 15px white,
+        0 0 30px white;
+}
+
+.block2 {
+    width: 100%;
+    height: 100vh;
+    /* background-image:url("mushroom.jpg");
+    background-size: cover; */
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 5px solid grey;
+}
+
+.cards {
+    display: flex;
+    margin-top: 50px;
+}
+
+.cards img {
+    width: 400px;
+    height: auto;
+    margin-right: 40px;
+    box-shadow: 4px 4px 8px black;
+}
+
+.cards h1 {
+    text-align: center;
+    color: white;
+    font-size: 65px;
+    font-family: bruno ace SC;
+    text-shadow: 0 0 5px black,
+        0 0 10px black;
+    display: inline-block;
+    position: absolute;
+    top: 1500px;
+    right: 520px;
+   
+
+}
+
+
+.card1 {
+    width: 330px;
+    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+    /* display:flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.card1 img {
+    width: auto;
+    height: 250px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.card1 #para1 {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.card1 #para2 {
+    font-family: poppins;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card1 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card1 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card2 {
+    width: 330px;
+    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+}
+
+.card2 img {
+    width: auto;
+    height: 250px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card2 #para3 {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.card2 #para4 {
+    font-family: poppins;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card2 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card2 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card3 {
+    width: 330px;
+    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+}
+
+.card3 img {
+    width: auto;
+    height: 250px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card3 #para5 {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.card3 #para6 {
+    font-family: poppins;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card3 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card3 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card1:hover {
+    transform: scale(1.1);
+}
+
+.card2:hover {
+    transform: scale(1.1);
+}
+
+.card3:hover {
+    transform: scale(1.1);
+}
+
+.blockcards {
+    display: flex;
+    margin-top: 55px;
+}
+
+
+.block3 {
+    width: 100%;
+    height: 450px;
+    /* background-image:url("bg.jpg");
+    background-size: cover;  */
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card4 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+
+}
+
+.card4 img {
+    width: auto;
+    height: 150px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card4 p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card4 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card4 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card5 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+
+}
+
+.card5 img {
+    width: auto;
+    height: 150px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card5 p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card5 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card5 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card6 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+
+}
+
+.card6 img {
+    width: auto;
+    height: 150px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card6 p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card6 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card6 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card7 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+
+}
+
+.card7 img {
+    width: auto;
+    height: 150px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card7 p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card7 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card7 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card8 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+
+}
+
+.card8 img {
+    width: auto;
+    height: 150px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card8 p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card8 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card8 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card4:hover {
+    transform: scale(1.1);
+}
+
+.card5:hover {
+    transform: scale(1.1);
+}
+
+.card6:hover {
+    transform: scale(1.1);
+}
+
+.card7:hover {
+    transform: scale(1.1);
+}
+
+.card8:hover {
+    transform: scale(1.1);
+}
+
+.block4 {
+    width: 100%;
+    height: 400px;
+    /* background-image:url("bg.jpg");
+    background-size: cover;  */
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card9 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+
+}
+
+.card9 img {
+    width: auto;
+    height: 150px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card9 p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card9 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card9 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card10 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+
+}
+
+.card10 img {
+    width: auto;
+    height: 150px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card10 p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card10 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card10 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card11 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+
+}
+
+.card11 img {
+    width: auto;
+    height: 150px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card11 p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card11 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card11 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card12 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+
+}
+
+.card12 img {
+    width: auto;
+    height: 150px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card12 p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card12 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card12 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card13 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+
+}
+
+.card13 img {
+    width: auto;
+    height: 150px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card13 p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card13 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card13 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card9:hover {
+    transform: scale(1.1);
+}
+
+.card10:hover {
+    transform: scale(1.1);
+}
+
+.card11:hover {
+    transform: scale(1.1);
+}
+
+.card12:hover {
+    transform: scale(1.1);
+}
+
+.card13:hover {
+    transform: scale(1.1);
+}
+
+.block5 {
+    width: 100%;
+    height: 450px;
+    /* background-image:url("bg.jpg");
+    background-size: cover;  */
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card14 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+
+}
+
+.card14 img {
+    width: auto;
+    height: 150px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card14 p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card14 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card14 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card15 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+
+}
+
+.card15 img {
+    width: auto;
+    height: 150px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card15 p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card15 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card15 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card16 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+
+}
+
+.card16 img {
+    width: auto;
+    height: 150px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card16 p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card16 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card16 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card17 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+
+}
+
+.card17 img {
+    width: auto;
+    height: 150px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card17 p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card17 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card17 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card18 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+
+}
+
+.card18 img {
+    width: auto;
+    height: 150px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card18 p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card18 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card18 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card14:hover {
+    transform: scale(1.1);
+}
+
+.card15:hover {
+    transform: scale(1.1);
+}
+
+.card16:hover {
+    transform: scale(1.1);
+}
+
+.card17:hover {
+    transform: scale(1.1);
+}
+
+.card18:hover {
+    transform: scale(1.1);
+}
+
+.block6 {
+    width: 100%;
+    height: 400px;
+    /* background-image:url("bg.jpg");
+    background-size: cover;  */
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card19 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+
+}
+
+.card19 img {
+    width: auto;
+    height: 150px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card19 p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card19 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card19 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card20 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+
+}
+
+.card20 img {
+    width: auto;
+    height: 150px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card20 p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card20 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card20 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card21 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+
+}
+
+.card21 img {
+    width: auto;
+    height: 150px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card21 p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card21 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card21 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card22 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+
+}
+
+.card22 img {
+    width: auto;
+    height: 150px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card22 p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card22 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card22 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card23 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+
+}
+
+.card23 img {
+    width: auto;
+    height: 150px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card23 p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card23 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card23 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card19:hover {
+    transform: scale(1.1);
+}
+
+.card20:hover {
+    transform: scale(1.1);
+}
+
+.card21:hover {
+    transform: scale(1.1);
+}
+
+.card22:hover {
+    transform: scale(1.1);
+}
+
+.card23:hover {
+    transform: scale(1.1);
+}
+
+.block7 {
+    width: 100%;
+    height: 450px;
+    /* background-image:url("bg.jpg");
+    background-size: cover;  */
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 8px solid grey;
+}
+
+.card24 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+
+}
+
+.card24 img {
+    width: auto;
+    height: 150px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card24 p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card24 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card24 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card25 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+
+}
+
+.card25 img {
+    width: auto;
+    height: 150px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card25 p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card25 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card25 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card26 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+
+}
+
+.card26 img {
+    width: auto;
+    height: 150px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card26 p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card26 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card26 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card27 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+
+}
+
+.card27 img {
+    width: auto;
+    height: 150px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card27 p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card27 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card27 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card28 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 15px black;
+    transition: 0.8s;
+
+}
+
+.card28 img {
+    width: auto;
+    height: 150px;
+    box-shadow: 0 0 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card28 p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card28 a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.card28 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card24:hover {
+    transform: scale(1.1);
+}
+
+.card25:hover {
+    transform: scale(1.1);
+}
+
+.card26:hover {
+    transform: scale(1.1);
+}
+
+.card27:hover {
+    transform: scale(1.1);
+}
+
+.card28:hover {
+    transform: scale(1.1);
+}
+
+.block8 {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 7px solid grey;
+}
+
+.block8 p {
+    color: white;
+    font-family: poppins;
+    font-size: 15px;
+
+}
+
+
+footer {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(74, 74, 74);
+    border-bottom: 16px solid black;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer h2 {
+    font-family: bruno ace sc;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#footerpara1 {
+    font-size: 17px;
+    font-family: poppins;
+    text-align: center;
+}
+
+#footerpara1 span {
+    font-weight: 700;
+}
+
+#footerpara2 {
+    font-size: 17px;
+    font-family: poppins;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#footerpara2 span {
+    font-weight: 700;
+}
+
+#footerpara3 {
+    font-size: 20px;
+    font-family: fasthand;
+    text-align: center;
+    text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #9d822b;
+    border-radius: 50px;
+
+    box-shadow: 0 0 15px #9d822b,
+        0 0 30px #9d822b,
+        0 0 40px #9d822b,
+        0 0 50px #9d822b,
+        0 0 70px #9d822b;
+}
+
+.bg-dark a {
+    text-decoration: none;
+    font-family: poppins;
+    color:white;
+}
+
+.container1 {
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    flex-direction: column;
+    
+}
+
+
+.container1 img {
+    width:auto;
+    height:200px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container1 h2 {
+    font-family: bruno ace sc;
+    color:white;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+.container1 p {
+    font-family: poppins;
+    font-size: 12px;
+    color:white;
+    text-align: center;
+}
+.form-label {
+    color:white;
+    font-family: bruno ace sc;
+}
+
+#emailHelp {
+    color:rgb(82, 82, 82);
+}
+
+.form-check-label {
+    color:white;
+    font-family: poppins;
+    font-size: 15px;
+}
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width:600px){
+    .container{
+        max-width:auto;
+        height:1100px;
+    }
+    #headingmainn {
+        font-size: 14px;
+        text-align: center;
+    }
+    #Headingg {
+        font-size: 35px;
+        
+    }
+    #Button{
+        width:95px;
+        font-size: 15px;
+        top:380px;
+    }
+    .subheading h3{
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    .block1{
+        display: flex;
+        flex-direction: column;
+    }
+    .block1 img {
+        width:auto;
+        height:350px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .block1 h1{
+     font-size: 38px;
+    text-align: center;
+    margin-left: 10px;
+    }
+    #Btn1 {
+        top: 1450px;
+        left:70px;
+        
+    }
+    .blockcards{
+        display: flex;
+        flex-direction: column;
+    }
+    .card1 {
+        width:auto;
+        height:450px;
+        display:block;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 55px;
+    }
+    .card1 img {
+        width:auto;
+        height:150px;
+    }
+    .card2 {
+        width:auto;
+        height:460px;
+        display:block;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 55px;
+       
+    }
+    .card2 img {
+        width:auto;
+        height:150px;
+    }
+    .card3 {
+        width:auto;
+        display:block;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 55px;
+        height:450px;
+        
+    }
+
+    .card3 img {
+        width:auto;
+        height:150px;
+    }
+    .block2 {
+        height:1660px;
+    }
+    .cards h1 {
+        font-size: 15px;
+        text-align: center;
+    }
+    .block3 {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        height:1700px; 
+       
+    }
+    .card4 {
+        width:250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .card5{
+        width:250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .card6{
+        width:250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .card7{
+        width:250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .card8{
+        width:250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .block4 {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        height:1700px; 
+       
+    }
+    .card9 {
+        width:250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .card10{
+        width:250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .card11{
+        width:250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .card12{
+        width:250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .card13{
+        width:250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .block5 {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        height:1700px; 
+       
+    }
+    .card14 {
+        width:250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .card15{
+        width:250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .card16{
+        width:250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .card17{
+        width:250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .card18{
+        width:250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .block6 {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        height:1700px; 
+       
+    }
+    .card19 {
+        width:250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .card20{
+        width:250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .card21{
+        width:250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .card22{
+        width:250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .card23{
+        width:250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .block7 {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        height:1700px; 
+       
+    }
+    .card24 {
+        width:250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .card25{
+        width:250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .card26{
+        width:250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .card27{
+        width:250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .card28{
+        width:250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .footer h2 {
+        font-size: 25px;
+    }
+    .nav form {
+       height:0px;
+       position: absolute;
+       top:80px;
+       left:0;
+       right:0;
+       width:90vw;
+       background-color: transparent;
+       transition: 0.5s;
+    
+    }
+    .nav form ul {
+        display:block;
+        width:fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin:15px auto 0 auto; */
+        text-align: center;
+        opacity:0;
+    }
+    .nav form ul li {
+        margin-bottom: 20px;
+        
+    }
+    .nav img {
+        display:flex;
+        width:auto;
+        height:40px;
+        margin:15px;
+    }
+    .nav form.active {
+        height:180px;
+        background-color: rgb(49, 49, 49);
+    }
+    .nav form.active ul {
+        opacity: 1;
+    }
+}
