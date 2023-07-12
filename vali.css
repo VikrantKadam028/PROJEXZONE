@@ -1,0 +1,45 @@
+.hero {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+   
+}
+
+.hero input {
+    width:250px;
+    height:30px;
+    padding:10px;
+    border-radius: 10px;
+    background: transparent;
+    border: 0.5px solid white;
+    font-family: verdana;
+    color:white;
+
+
+}
+
+.hero button {
+    height:50px;
+    width:80px;
+    border-radius: 10px;
+    margin-left: 5px;
+    border:0;
+    background-color: rgb(0, 211, 0);
+    color:white;
+    cursor:pointer;
+
+}
+
+body {
+    background-color: #333;
+}
+
+span {
+    color:#61b752;
+    display:block;
+    position: absolute;
+    top:210px;
+    left:450px;
+    font-family:verdana;
+}

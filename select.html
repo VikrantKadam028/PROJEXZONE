@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select menu design</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="selector">
+            <div id="selectfield">
+<p id="selecttext">Select Social Media</p>
+<img src="arrow.png">
+            </div>
+            <ul id="list" class="hide">
+                <li class="options">
+                    <img src="facebook.png" alt="">
+                    <p>Facebook</p>
+                </li>
+                <li  class="options">
+                    <img src="youtube.png" alt="">
+                    <p>Youtube</p>
+                </li>
+                <li  class="options">
+                    <img src="instagram.png" alt="">
+                    <p>Instagram</p>
+                </li>
+                <li  class="options">
+                    <img src="twitter.png" alt="">
+                    <p>Twitter</p>
+                </li>
+                <li  class="options">
+                    <img src="whatsapp.png" alt="">
+                    <p>Whatsapp</p>
+                </li>
+                <li  class="options">
+                    <img src="pinterest.png" alt="">
+                    <p>Pinterest</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+<script>
+ var selectfield = document.getElementById("selectfield");
+ var selecttext = document.getElementById("selecttext");
+ var options = document.getElementsByClassName("options");
+ var list = document.getElementById("list");
+
+
+ selectfield.onclick = function() {
+  list.classList.toggle("hide");
+  
+ }
+
+
+for(option of options){
+    option.onclick = function(){
+        selecttext.innerHTML = this.textContent;
+        list.classList.toggle("hide");
+    }
+}
+
+
+
+</script>
+
+
+</body>
+</html>

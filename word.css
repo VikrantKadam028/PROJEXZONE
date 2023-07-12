@@ -1,0 +1,91 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    padding:30px;
+   margin:150px 150px 0px;
+    
+}
+
+
+.container h1{
+color:white;
+font-size: 50px;
+text-shadow:    
+    0 0 7px grey,
+    0 0 14px grey,
+    0 0 25px white,
+    0 0 50px white;
+}
+
+.container span {
+    color:rgb(1, 209, 1);
+    text-shadow: 
+    0 0 7px green,
+    0 0 14px green,
+    0 0 25px green,
+    0 0 50px green,
+    0 0 65px green;
+}
+
+.display input {
+    width:450px;
+    height:50px;
+    margin-top:15px;
+    padding:15px;
+    font-weight:600;
+    border-radius: 5px;
+}
+
+.display #Btn {
+    width:80px;
+    height:50px;
+    font-weight:600;
+    background-color: rgb(2, 202, 2);
+    border-radius: 6px;
+    color:white;
+    border:2px solid rgb(0, 61, 0);
+    cursor:pointer;
+}
+
+.display #Btn:hover {
+    border:visible;
+    border-width:100%;
+    box-shadow: 
+    0 0 7px green,
+    0 0 14px green,
+    0 0 25px green,
+    0 0 50px green;
+    transition: 1s;
+}
+
+#Btn1 {
+    margin-top: 10px;
+    width:160px;
+    height:50px;
+    border-radius: 5px;
+    background-color:  rgb(2, 202, 2);
+    color:white;
+    font-weight:600;
+    padding:5px;
+    font-size: 12px;
+    border:2px solid rgb(0, 61, 0);
+    cursor:pointer;
+}
+
+#Btn1:hover {
+    box-shadow: 
+    0 0 7px green,
+    0 0 14px green,
+    0 0 25px green,
+    0 0 50px green;
+    transition: 1s;
+}

@@ -1,0 +1,51 @@
+* {
+    color:white;
+}
+
+#time {
+    font-size: 70px;
+    padding:10px;
+    font-family: 'digital-7';
+    src: url('../fonts/digital-7.ttf');
+}
+
+
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color:white;
+    text-shadow: 
+    0 0 7px white,
+    0 0 10px white,
+    0 0 21px white,
+    0 0 42px blue,
+    0 0 82px blue,
+    0 0 92px blue,
+    0 0 102px blue,
+    0 0 151px blue;
+    text-align: center;
+}
+
+.container {
+    background-color: black;
+    width:300px;
+    height: 80px;
+    margin:150px auto 10px;
+    border-radius: 10px;
+    padding:3px;
+    border: 3px solid rgb(0, 72, 105);
+    box-shadow:  0 0 7px white,
+    0 0 10px white,
+    0 0 21px white,
+    0 0 42px rgb(1, 189, 236),
+    0 0 82px rgb(0, 238, 255),
+    0 0 92px rgb(0, 238, 255),
+    0 0 102px rgb(25, 0, 255),
+    0 0 151px rgb(25, 0, 255);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}

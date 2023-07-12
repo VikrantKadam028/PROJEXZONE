@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+ 
+* {
+    padding:0px;
+    margin:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.container {
+    background-color: white;
+    width:480px;
+    height:150px;
+    border-radius: 20px;
+    display:flex;
+    margin : 130px auto 30px;
+}
+
+#head {
+    padding:25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
