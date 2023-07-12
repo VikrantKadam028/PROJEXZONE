@@ -1,0 +1,636 @@
+HTML CODE===
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com</title>
+    <link rel="stylesheet" href="amazon.css">
+ </head>
+<body>
+    <div class="navbar">
+        <img src="amazon_PNG11.png" alt="logo">
+        <h4><span> Deliver to</span><br>India</h4>
+        <select>
+            <option>All</option>
+            <option>Arts & crafts</option>
+            <option>Automotive</option>
+            <option>Baby</option>
+            <option>Beauty & personal care</option>
+            <option>Books</option>
+            <option>Boy's Fashion</option>
+            <option>Computers</option>
+            <option>Deals</option>
+            <option>Digital Music</option>
+            <option>Electronics</option>
+            <option>Girl's Fashion</option>
+        </select>
+        <input type="text" name="nav" placeholder="Search amazon">
+        <button > <img src="search-icon.png"></button>
+    </div>
+    <div class="nav-bar">
+    <button id="Btn">EN</button>
+    <h2>Hello,sign in<br><span>Account & Lists</span></h2>
+    <h3>Return<br><span>& Orders</span></h3>
+    <img src="cart.png"><h4>Cart</h4>
+    <img src="locate.png" id="Lol">
+    </div>
+    <div class="select">
+        
+        <h2>choose language</h2>
+        <a href="#">Learn more</a>
+        <form>
+        <input type="radio" name="language" value="EN">
+        <label for="English">English-EN</label><br>
+        <input type="radio" name="language" value="ES">
+        <label for="espanol">espanol-ES</label><br>
+        <input type="radio" name="language" value="PT">
+        <label for="Portugual">Portugual-PT</label><br>
+        <input type="radio" name="language" value="HI">
+        <label for="Hindi">Hindi-HI</label><br>
+        <input type="radio" name="language" value="MA">
+        <label for="Marathi">Marathi-MA</label><br>
+        </form><br>
+        <h2 id="hee">change currency</h2>
+        <span id="span1">
+        <a href="#" >Learn more</a>
+        <h3>$-US-USD</h3>
+        <a href="#">change</a>
+        </span>
+        <button id="close">OK</button>
+    </div>
+    
+    <div class="subnav">
+        <ul>
+            <li>Today's Deals</li>
+            <li>Customer Service</li>
+            <li>Registry</li>
+            <li>Gift Cards</li>
+            <li>Sell</li>
+        </ul>
+        <h3 id="head">Shop great deals now</h3>
+        <img src="top.jpg" id="topimg">
+        <div class="subnav2">
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.</p>
+            <a href="#">click here to go to amazon.in</a>
+        </div>
+    
+
+        <div class="block1">
+    <h2>Gaming accessories</h2>
+    <img src="headset.jpg" id="headset">
+    <h4>Headset</h4>
+    <img src="Mouse.jpg" id="mouse">
+    <h4>Mouse</h4>
+    <img src="Keyboard.jpg" id="keyboard">
+    <h4 id="heading1">keyboard</h4>
+    <img src="chair.jpg" id="chair">
+    <h4 id="heading2">Chair</h4>
+    <a href="#">shop now</a>
+        </div>
+        <div class="block2">
+            <h2>Toys under $30</h2>
+            <img src="kids.jpg">
+            <a href="#">shop now</a>
+        </div>
+        <div class="block3">
+        <h2>Shop deals on fashion</h2>
+    <img src="jeans.jpg" id="jeans">
+    <h4>Jeans under $50</h4>
+    <img src="dresses.jpg" id="dresses">
+    <h4>Dresses under $30</h4>
+    <img src="tops.jpg" id="tops">
+    <h4 id="heading3">Tops under $25</h4>
+    <img src="shoes.jpg" id="shoes">
+    <h4 id="heading4">Shoes under $50</h4>
+    <a href="#">shop now</a>
+        </div>
+        <div class="otherblocks">
+            <h2 id="heading5">Sign in for the best experience!</h2>
+            <button id="Btn1">Sign in securely</button>
+            <img src="advertise.jpg">
+        </div>
+    
+</div>
+<script src="amazon.js"></script>
+</body>
+</html>
+
+
+
+CSS CODE===
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin:0px;
+    padding:0px;
+    font-family: poppins;
+}
+
+body {
+    background-color: rgb(227, 227, 227);
+}
+
+.navbar {
+    background-color: rgb(0, 0, 17);
+    width: 100%;
+    height:60px;
+}
+
+.navbar img{
+width:110px;
+height:45px;
+padding:15px;
+}
+
+.navbar h4{
+display:inline-block;
+position: absolute;
+top:7px;
+left:180px;
+color:white;
+font-size: 14px;
+margin:0px;
+padding:0px;
+}
+
+.navbar h4 span {
+    font-family: arial;
+    font-size: 12px;
+    margin:0px;
+    padding:0px;
+}
+
+.navbar select {
+    width:52px;
+    height:40px;
+    display:inline-flexbox;
+    position: absolute;
+    top:10px;
+    left:280px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor:pointer;
+}
+
+.navbar input {
+    width:422px;
+    height:36px;
+    padding:0px 10px;
+    position: absolute;
+    top:10px;
+    left:332px;
+}
+
+.navbar button {
+    width:45px;
+    height:40px;
+    background-color: rgb(255, 185, 54);
+    border:0px;
+    border-radius: 5px;
+    position: absolute;
+    top:10px;
+    right:547px;
+}
+
+.navbar button img {
+    width:15px;
+    height:15px;
+    
+}
+
+.select {
+    background-color: white;
+    padding:10px;
+    border-radius: 5px;
+    width:340px;
+    height:220px;
+    position: absolute;
+    top:80px;
+    right:300px;
+    list-style: none;
+    visibility: hidden;
+    transition: all .2s linear;
+    
+}
+
+.selectActive {
+    visibility: visible;
+    transform:scale(1.1);
+    
+}
+
+.select button {
+    width:95%;
+    margin:10px;
+    background-color: rgb(255, 185, 54);
+    border:0;
+    border-radius: 5px;
+    height: 30px;
+    position: absolute;
+    top:180px;
+    right:0px;
+}
+
+.select button:hover {
+    visibility: visible;
+    border:2px solid white;
+}
+
+
+.select h2 {
+    color:black;
+    font-size: 14px;
+    
+    
+}
+
+.select #hee {
+    color:black;
+    font-size: 14px;
+    position: absolute;
+    right:20px;
+    top:9px;
+}
+
+.select #span1 {
+    position: absolute;
+    top:30px;
+    right:60px;
+}
+
+.select h3 {
+    color:black;
+    font-size: 16px;
+}
+
+.select a {
+    font-size: 12px;
+    display:flex;
+}
+
+.select form {
+    color:black;
+    display:list-item;
+    align-items: center;
+    justify-content: center;
+}
+
+#Btn {
+    width:45px;
+    height:40px;
+    background-color:transparent;
+    border:0px;
+    border-radius: 5px;
+    position: absolute;
+    top:10px;
+    right:480px;
+    color:white;
+    font-size: 15px;
+    border:2px solid white;
+    cursor : pointer;
+}
+
+.nav-bar h2 {
+    color:white;
+    position: absolute;
+    top:10px;
+    right:320px;
+    font-size: 12px;
+    cursor:pointer;
+}
+
+.nav-bar h2:hover {
+    border-bottom:2px solid rgb(255, 185, 54);
+    border-radius: 4px;
+}
+
+ 
+.nav-bar span {
+    font-size: 16px;
+}
+
+.nav-bar h3 {
+    color:white;
+    position: absolute;
+    top:10px;
+    right:210px;
+    font-size: 12px;
+    cursor:pointer;
+
+}
+
+
+.nav-bar h3:hover{
+    border-bottom:2px solid rgb(255, 185, 54);
+    border-radius: 4px;
+}
+
+.nav-bar img {
+    width:60px;
+    height:60px;
+    position: absolute;
+    top:0px;
+    right:100px;
+}
+
+.nav-bar h4 {
+    position: absolute;
+    top:16px;
+    right:55px;
+    color:white;
+    font-size: 17px;
+    cursor:pointer;
+}
+
+.nav-bar h4:hover {
+    border-bottom: 2px solid rgb(255, 185, 54);
+    border-radius: 4px;
+}
+ 
+
+.nav-bar #Lol {
+    position: absolute;
+    top:23px;
+    left:155px;
+    height:25px;
+    width:25px;
+}
+
+.subnav {
+    background-color: #000732ee;
+    height:40px;
+    width:100%;
+}
+
+.subnav ul {
+    display: flex;
+    color:white;
+    font-size: 14px;
+}
+
+.subnav ul li {
+    padding:10px;
+    list-style: none;
+   cursor:pointer;
+}
+
+.subnav #head {
+    font-size: 14px;
+    position: absolute;
+    right:10px;
+    top:70px;
+    color:white;
+    cursor:pointer;
+}
+
+.subnav #topimg {
+    /* width: 1348px;
+    height:550px; */
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.subnav2 {
+    background-color: white;
+    height:35px;
+    width:1300px;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    position: absolute;
+    top:330px;
+}
+
+.block1 {
+    width:300px;
+    height:370px;
+    background-color: white;
+    position: absolute;
+    top:380px;
+    left:25px;
+    border-radius: 5px;
+    /* background-color: black; */
+    cursor:pointer;
+}
+
+.block2 {
+    width:300px;
+    height:370px;
+    background-color: white;
+    position: absolute;
+    top:380px;
+    left:340px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.block3 {
+    width:300px;
+    height:370px;
+    background-color: white;
+    position: absolute;
+    top:380px;
+    left:655px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.block1 h2 {
+    padding:10px;
+    font-size: 21px;
+}
+.block1 h4 {
+    font-size: 12px;
+    padding:10px;
+    margin: 0px;
+}
+
+.block1 #headset {
+    width:146px;
+    height:95px;
+}
+
+.block1 #mouse {
+    width:146px;
+    height:95px;
+    
+}
+
+.block1 #keyboard {
+    width:146px;
+    height:95px;
+    position: absolute;
+    top:50px;
+    left:150px;
+}
+
+.block1 #heading1 {
+    position: absolute;
+    top:150px;
+    left:150px;
+}
+
+.block1 #chair {
+    width:146px;
+    height:95px;
+    position: absolute;
+    top:200px;
+    left:150px;
+}
+
+.block1 #heading2 {
+    position: absolute;
+    top:295px;
+    left:150px;
+}
+
+.block1 a {
+    text-decoration: none;
+    font-size: 15px;
+    padding:10px;
+}
+
+
+.block2 h2 {
+    padding:10px;
+    font-size: 20px;
+}
+
+.block2 img {
+    width:280px;
+    height:250px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+.block2 a {
+    text-decoration: none;
+    font-size: 15px;
+    padding:10px;
+}
+
+.block3 h2 {
+    font-size: 21px;
+    padding:10px;
+}
+
+.block3 #jeans {
+    width:135px;
+    height:85px;
+    padding-left: 10px;
+}
+
+.block3 #dresses {
+    width:135px;
+    height:85px;
+    padding-left: 10px;
+}
+
+.block3 #tops {
+    width:135px;
+    height:85px;
+    padding-right: 10px;
+}
+
+.block3 h4 {
+    font-size: 12px;
+    padding-left:10px;
+    margin: 0px;
+}
+
+.block3 #tops {
+    width:135px;
+    height:85px;
+    padding-right:10px;
+    position: absolute;
+    top:50px;
+    right:0px;
+}
+
+.block3 #shoes {
+    width:135px;
+    height:85px;
+    padding-right:10px;
+    position: absolute;
+    top:160px;
+    right:0px;
+}
+
+.block3 #heading3 {
+    position: absolute;
+    top:142px;
+    right:50px;
+}
+
+.block3 #heading4 {
+    position: absolute;
+    top:253px;
+    right:45px;
+}
+
+.block3 a {
+    text-decoration: none;
+    font-size: 15px;
+    padding:10px;
+    position: absolute;
+    top:323px
+}
+
+.otherblocks  {
+    background-color: white;
+    width:350px;
+    height:140px;
+    border-radius: 5px;
+    position:absolute;
+    right:23px;
+    top:380px;
+}
+
+.otherblocks #heading5 {
+    padding:10px;
+    font-size: 20px;
+}
+
+.otherblocks #Btn1 {
+    width:90%;
+    height:35px;
+    color:black;
+    border-radius: 10px;
+    background-color: yellow;
+    border:0px;
+    margin-left: 17px;
+    position: absolute;
+    top:80px;
+    cursor:pointer;
+}
+
+.otherblocks img {
+    width:350px;
+    height:220px;
+    position: absolute;
+    right:0px;
+    top:151px;
+    border-radius: 10px;
+}
+
+
+JS CODE===
+
+const submitBtn = document.getElementById("Btn");
+const closeBtn = document.getElementById("close");
+const popup = document.querySelector('.select');
+
+submitBtn.addEventListener('click', function(){
+    popup.classList.add('selectActive');
+})
+
+closeBtn.addEventListener('click', function(){
+    popup.classList.remove('selectActive');
+})
+
